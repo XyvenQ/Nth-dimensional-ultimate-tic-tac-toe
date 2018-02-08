@@ -18,8 +18,8 @@ public class Game {
 					gameGrid.grid[i][j] = new Grid();
 					for (int k = 0; k < 3; k++) {
 						for (int l = 0; l < 3; l++) {
-							//gameGrid.grid[i][j].grid[k][l] = new TicPix(); << refering to the grid within the other grid doesnt work
-							//the type Possession cant have child grids
+							//gameGrid.grid[i][j].grid[k][l] = new TicPix(); << referring to the grid within the other grid doesn't work
+							//the type Possession can't have child grids
 							//the actual data is stored, but how do I access it?
 						}
 					}
